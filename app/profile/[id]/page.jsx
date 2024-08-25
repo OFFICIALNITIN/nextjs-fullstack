@@ -1,8 +1,8 @@
 "use client";
 
-import React from "react";
+import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react/cjs/react.production.min";
+
 import Profile from "@components/Profile";
 
 const UserProfile = ({ params }) => {
